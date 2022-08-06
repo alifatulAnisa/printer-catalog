@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+	color: black;
+}
+
+h2{
+	text-align: center;
+	padding: 20px;
+}
+
+.register{
+	background: #faafd8;
+	width: 500px;
+	margin: 0px 0px 0px 430px;
+	color: black;
+	font-size: 18;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#register{
+	margin-left: 50px;
+}
+
+label{
+	color: black;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+
+#name{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+#ph{
+	width: 65px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+}
+
+#num{
+	width: 300px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+}
+
+#sub{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+}
+
+.user_card{
+	height: 400px;
+	width: 350px;
+	margin-top: 100px;
+	margin-bottom: auto;
+	background: #f39c12;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.brand_logo_container{
+	position: absolute;
+	height: 150px;
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #60a3bc;
+	padding: 10px;
+	text-align: center;
+}
+
+.brand_logo{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.form_container{
+	margin-top: 100px;
+}
+
+.login_btn{
+	width: 100%;
+	background: #c0392b;
+	color: white;
+}
+
+.login_btn:focus{
+	box-shadow: none;
+	outline: 0px;
+}
+
+.login_container{
+	padding: 0 2rem;
+}
+
+.input-group-text{
+	background: #c0392b;
+	color: white;
+	border: 0;
+	border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input_user,
+.input_pass:focus{
+	box-shadow: none;
+	outline: 0px;
+}
+
+.custom-checkbox .custom-control-input: checked~.custom-control-label::before{
+	background-color: #c0392b;
+}
+
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+span {
+color:red
+}
+h2
+{
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr
+{
+border:0;
+border-bottom:1px solid;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login
+{
+margin: auto;
+width:450px;
+border-radius:10px;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+background-color:#b6e6ff;
+}
+input[type=text],input[type=password]
+{
+width:96.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:20px;
+}
+input[type=submit]
+{
+width:100%;
+background-color:#2f90ff;
+color:#fff;
+border:2px solid #white;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+}
+#profile
+{
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout
+{
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a
+{
+text-decoration:none;
+color:#6495ed
+}
+i
+{
+color:#6495ed
+}
